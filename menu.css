@@ -1,0 +1,44 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  display: grid;
+}
+
+input, button {
+  font-size: large;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 10px;
+}
+
+button:hover {
+  background-color: lightgrey;
+}
+
+button.square {
+  padding: 0;
+  width: 36px;
+  height: 36px;
+  line-height: 32px;
+}
+
+#menu {
+  margin: auto;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.config-row span {
+  font-size-adjust: 0.7;
+  font-weight: bolder;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
